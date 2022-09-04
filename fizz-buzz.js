@@ -12,9 +12,9 @@ var fizzBuzz = function (arr) {
 
     if (result % 3 === 0) {
       console.log("Fizz");
-    } else if (result %5  === 0) {
+    } else if (result % 5 === 0) {
       console.log("Buzz");
-    } else if (result % 3 === 0 && result % 5 === 0) {
+    } else if (result % 15 === 0) {
       console.log("Fizz Buzz");
     } else {
       console.log(result);
