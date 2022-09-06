@@ -1,6 +1,8 @@
 // Write code to create a function that returns the factorial of `num`
 
 var factorial = function (num) {
+  // console.log("This is num " + num);
+
   // Create empty array
   let list = [];
 
@@ -8,8 +10,11 @@ var factorial = function (num) {
   for (var i = 0; i <= num; i++) {
     list.push(i);
 
+    console.log("This is the for loop " + list);
+
     // Add all elements in the array
 
-    console.log(list.length);
+
+
   }
 };
